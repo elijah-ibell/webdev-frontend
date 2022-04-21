@@ -24,7 +24,6 @@ function init() {
     // renderer.domElement.style.position = "fixed"
     // renderer.domElement.style.top = "40px"
     // renderer.domElement.style.left = "40px"
-    camera.updateProjectionMatrix();
     renderer.setSize( window.innerWidth - 80, window.innerHeight - 80);
     document.body.appendChild( renderer.domElement );
 
@@ -39,7 +38,7 @@ function onWindowResize() {
     camera.aspect = (window.innerWidth - 80) / (window.innerHeight - 80);
     camera.updateProjectionMatrix();
 
-    // renderer.setSize( window.innerWidth - 80, window.innerHeight - 80);
+    renderer.setSize( window.innerWidth - 80, window.innerHeight - 80);
 
 }
 

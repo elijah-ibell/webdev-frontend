@@ -1,8 +1,8 @@
-canvas = document.getElementsByTagName("canvas")[0];
-canvas.height = window.innerHeight - 80;
-canvas.width = window.innerWidth - 80;
+main = document.getElementsByTagName("main")[0];
+main.style.height = (window.innerHeight - 80) + "px";
+main.style.width = (window.innerWidth - 80) + "px";
 
 window.addEventListener('resize', function(){
-    canvas.height = window.innerHeight - 80;
-    canvas.width = window.innerWidth - 80;
+    main.style.height = (window.innerHeight - 80) + "px";
+    main.style.width = (window.innerWidth - 80) + "px";
 })
