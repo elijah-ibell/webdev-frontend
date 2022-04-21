@@ -1,0 +1,48 @@
+$primary-color: black
+$secondary-color: red
+$frame-width: 40
+
+#frame-top
+    background-color: $primary-color
+    height:$frame-width + px
+    position: fixed
+    width:100vw
+    top:0px
+    left:0px
+    z-index:99
+
+#frame-bottom
+    background-color: $primary-color
+    height:$frame-width + px
+    bottom:0px
+    left:0px
+    position: fixed
+    width:100vw
+    z-index:99
+
+#frame-left
+    background-color: $primary-color
+    height:100vh
+    top:0px
+    left:0px
+    position: fixed
+    width:$frame-width + px
+    z-index:99
+
+#frame-right
+    background-color: $primary-color
+    height:100vh
+    right:0px
+    top:0px
+    position: fixed
+    width:$frame-width + px
+    z-index:99
+
+#canvas-1
+    position: fixed
+    top:$frame-width + px
+    left:$frame-width + px
+    // width: 30px
+    // height: 30px
+    background-color: $secondary-color
+
