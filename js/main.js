@@ -1,4 +1,4 @@
-canvas = document.getElementById("canvas-1");
+canvas = document.getElementsByTagName("canvas")[0];
 canvas.height = window.innerHeight - 80;
 canvas.width = window.innerWidth - 80;
 
