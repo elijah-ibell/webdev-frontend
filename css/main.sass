@@ -1,6 +1,30 @@
 $primary-color: black
-$secondary-color: red
+$secondary-color: white
+// $secondary-color: red
 $frame-width: 40
+
+
+main
+    position: fixed
+    top: $frame-width + px
+    left: $frame-width + px
+    color: $secondary-color
+    z-index: 98
+    border: 1px solid $secondary-color
+    box-sizing: border-box
+    h1
+        margin: 50px
+    nav
+        li a
+            text-decoration: none
+            color: $secondary-color
+        ul
+            list-style-type: none
+canvas
+    position: fixed
+    top: $frame-width + px
+    left: $frame-width + px
+    // z-index: 
 
 #frame-top
     background-color: $primary-color
@@ -37,12 +61,3 @@ $frame-width: 40
     position: fixed
     width:$frame-width + px
     z-index:99
-
-#canvas-1
-    position: fixed
-    top:$frame-width + px
-    left:$frame-width + px
-    // width: 30px
-    // height: 30px
-    background-color: $secondary-color
-

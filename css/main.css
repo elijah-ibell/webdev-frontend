@@ -1,3 +1,29 @@
+main {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  color: white;
+  z-index: 98;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+main h1 {
+  margin: 50px;
+}
+main nav li a {
+  text-decoration: none;
+  color: white;
+}
+main nav ul {
+  list-style-type: none;
+}
+
+canvas {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+}
+
 #frame-top {
   background-color: black;
   height: 40px;
@@ -36,13 +62,6 @@
   position: fixed;
   width: 40px;
   z-index: 99;
-}
-
-#canvas-1 {
-  position: fixed;
-  top: 40px;
-  left: 40px;
-  background-color: red;
 }
 
 /*# sourceMappingURL=main.css.map */
